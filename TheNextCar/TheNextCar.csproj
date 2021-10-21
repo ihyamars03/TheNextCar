@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Asset\" />
+    <None Remove="Asset\navigation.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Asset\navigation.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

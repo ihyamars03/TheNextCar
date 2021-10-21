@@ -33,7 +33,7 @@ namespace TheNextCar
 
         public void carEngineStatusChanged(string value, string message)
         {
-            status.Content = message;
+            Status.Content = message;
             StartButton.Content = value;
         }
         public void doorSecurityChanged(string vale, string message)
